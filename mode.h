@@ -20,10 +20,13 @@ void func(int cho,char& opt){
                 monthcost = cokwh4 * kwh;
                 cout<<"Cost : "<<monthcost<<endl;
                 break;
+            case 0:
+                break;
             default:
                 cout<<">>"<<cho<<" is not ready..."<<endl; 
                 break;   
         };
+
     case 'i':
         switch (cho){
             case 3:
@@ -34,6 +37,8 @@ void func(int cho,char& opt){
                 monthcost = cokwh2 * kwh;
                 cout<<"Cost : "<<monthcost<<endl;
                 break;
+        case 0:
+            break;
         default:
             cout<<cho<<" is not ready..."<<endl; 
             break;       
